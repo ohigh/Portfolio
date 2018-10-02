@@ -8,6 +8,13 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
 main {
 	max-width: 1160px;
 	margin: auto;
@@ -18,12 +25,22 @@ main {
 	text-align: center;
 }
 #eksempler p {
-	line-height: 32px;
+	line-height: 24px;
 	font-size: 16px;
 	color: #ffffff;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin: 0 0 20px;
+}
+#eksempler h1 {
+		margin: 20px 0;
+
+    line-height: 57.6px;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    text-transform: uppercase;
 }
 #eksempler h3 {
 	margin: 0 0 20px;
@@ -35,7 +52,8 @@ main {
 }
 article {
 	color: #FFFFFF;
-}
+/*	padding-top: 20px;
+*/}
 .row {
 	display: -ms-flexbox; /* IE 10 */
 	display: flex;
@@ -50,7 +68,7 @@ article {
 }
 .inner-column {
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 20px;
 	vertical-align: top;
 }
 .inner-column a img {
@@ -85,6 +103,33 @@ article {
 	color: #257e25;
 	background-image: none;
 }
+
+.go-to-top {
+	margin-top: 20px;
+		font-size: 24px;
+
+    color: #ffffff;
+    display: inline-block;
+
+    height: 70px;
+    width: 70px;
+    padding: 7px 20px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    line-height: 47.6px;
+}
+
+ .go-to-top:hover { background-color: rgba(15, 91, 38, 0.75);
+}
+/*.go-to-top .fa-angle-up {
+	font-size: 24px;
+}
+*/
+
+
+
+
+
  @keyframes jello {
  from,  11.1%,  to {
  -webkit-transform: translate3d(0, 0, 0);
