@@ -29,6 +29,10 @@ main {
 	max-width: 1160px;
 	margin: auto;
 }
+#eksempler {
+	margin-bottom: 5vh;
+}
+
 #eksempler, #profil {
 	min-height: 100vh;
 	text-align: center;
@@ -57,6 +61,34 @@ main {
 	font-size: 36px;
 	color: inherit;
 }
+#profil {
+	background-image: url(../images/Baggrund_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1300px;
+	background-position: top;
+}
+		
+#profil h4 {
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 28px;
+	font-weight: 600;
+	font-style: italic;
+	color: rgba(0,0,0,0.5);
+	transform: rotate(-3deg);
+	text-align: left;
+}	
+#profil p {
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+	color: rgba(0,0,0,0.50);
+	transform: rotate(1deg);
+	text-align: left;
+	letter-spacing: 2px;
+	padding: 12px;
+	line-height: 28px;
+}	
 article {
 	color: #FFFFFF;
 /*	padding-top: 20px;
@@ -81,9 +113,59 @@ article {
 .inner-column a img, .inner-column img  {
 	width: 100%;
 }
-
+img.kompetencer-image {
+	margin-top: 140px;
+	width: 90%;
+	padding: 10px 10px;
+	background: rgba(255,255,255,1.00);
+	transform: rotate(8deg);
+	box-shadow: 0px 1px 6px 1px #868585; 
+}
+img.interesser-image {
+	width: 90%;
+	padding: 10px 10px;
+	background: rgba(255,255,255,1.00);
+	box-shadow: 0px 1px 6px 1px #868585; 
+}
 img.profil-image {
 	width: 200px;
+	padding: 12px 12px 24px;
+	background: rgba(255,255,255,1.00);
+	transform: rotate(-8deg);
+	box-shadow: 0px 1px 6px 1px #868585; 
+}
+
+img.postit-image {
+	width: 250px;
+	transform: rotate(2deg);
+	
+}
+.profile-row {
+	width: 85%;
+	margin: auto;
+	margin-top: 35px;
+	transform: rotate(5deg);
+}
+
+#profil address {
+	width: 50%;
+	margin: 45px auto;
+}
+
+.profile-col-left {
+	margin-left: 40px;
+	transform: rotate(6deg);
+	line-height: 30px;
+}
+
+#profil .inner-column.profile-col-middle {
+	margin: 40px 0 0 -10px;
+	transform: rotate(-6deg);
+	line-height: 32px;
+}
+
+#profil .inner-column.profile-col-left p {
+	transform: rotate(-8deg);
 }
 #button {
 	position: relative;
