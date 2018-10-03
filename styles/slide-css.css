@@ -1,12 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Reset */
-* {
-/*	margin: 0;
-	padding: 0;*/
-	box-sizing: border-box;
-}
+
 .feature {
 }
 .header-areea {
@@ -23,6 +18,7 @@
 */   animation: fade 20s infinite;
 }
 .header-overlay {
+	width: 90vw;
 	display: inline-block;
 	color: #FFFFFF;
 	position: relative;
@@ -31,20 +27,37 @@
 }
 .slider-text {
 	height: auto;
-	width: 75%;
+	text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.slider-text h1 {
+	margin: 0;
+	line-height: 86px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.slider-text h2 {
+	margin: 0;
+	line-height: 52px;
+    font-size: 36px;
 }
 .slide-text-1 {
 	position: absolute;
-	top: 0px;
-	transition: all 1.5s ease-in-out;
 	animation: layer1 20s infinite;
 }
 .slide-text-2 {
 	position: relative;
-	top: 0px;
-	transition: all 1.5s ease-in-out;
 	animation: layer2 20s infinite;
 }
+.slide-text-1, .slide-text-2 {
+	width: 50%;
+	top: 0px;
+	transition: all 1.5s ease-in-out;
+}
+
+
+
+
+
  @keyframes fade {
  0% {
  opacity: 1;
@@ -142,6 +155,6 @@
 }
 .header-text-name {
 	color: #FFFFFF;
-	padding-bottom: 2em;
+	padding: 1em 0 2em;
 	position: relative;
 }
